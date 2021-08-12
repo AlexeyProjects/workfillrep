@@ -1,0 +1,28 @@
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.row {
+	display: flex;
+}
+.subtitle {
+	font-weight: 600;
+}
+.question {
+	&-item {
+		margin-bottom: 2rem;
+		border-bottom: .1rem solid rgba(0,0,0,0.3);
+		padding-bottom: 1rem;
+		padding: 1rem;
+		.subtitle {
+			margin-right: 0.5rem;
+		}
+		> div {
+			margin-bottom: 0.5rem;
+		}
+		&-variables {
+			margin-left: 2rem;
+		}
+	}
+
+}
